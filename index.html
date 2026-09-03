@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi portafolio</title>
+</head>
+<body>
+    <header id="inicio">
+        <h1>Liceth Maria Lopez Simanca</h1>
+    <img src="img/imagen.jpeg" alt="Fotografia Liceth" width="140" height="140">
+    <h2>Estudiante de ingeniería de sistemas</h2>
+   
+    </header>
+    <hr>
+    <nav>
+        <ul>
+            <li><a href="inicio">inicio</a></li>
+            <li><a href="informacion-basica">informacion-basica</a></li>
+            <li><a href="informacion-academica">informacion-academica</a></li>
+            <li><a href="contactenos">contactenos</a></li>
+            <li><a href="redes-sociales">redes-sociales</a></li>
+
+        </ul>
+
+    </nav>
+    <hr>
+    <main>
+        <section id="informacion-basica">
+            <h2>Información básica</h2>
+            <p>Nombre completo: Liceth Maria Lopez Simanca</p>
+            <p>Fecha y lugar de nacimiento: 01 de Mayo de 2006, Sahagún, Córdoba, Colombia</p>
+            <p>Dirección de residencia: Vereda Loma Santana</p>
+            <p>Telefono de contacto: 3042236264</p>
+            <p>Correo electronico: liclpz1720@gmail.com</p>
+
+            <h3>Descripción personal</h3>
+            <p>Soy una persona apasionada, me gusta estar en aprendizaje continuo con la tecnología</p>
+
+        </section>
+        <hr>
+        <section id="informacion-academica">
+            <h2>Información académica</h2>
+        <h3>Estudios realizados</h3>
+        <ul>
+            <li>Bachiller académico, egresada de institución educativa Normal Superior Lacides Iriarte en el año 2023</li>
+        </ul>
+        <h3>Formación en curso</h3>
+        <p>
+            Actualmente cursando VI semestre de ingeniería de sistemas
+        </p>
+        <h3>Cursos y certificaciones</h3>
+        <ul>
+            <li>Curso de desarrollo web</li>
+            <li>Curso de bases de datos</li>
+            <li>Curso de programación</li>
+            <li>Curso de análisis y diseño de sistemas</li>
+        </ul>
+        <h3>Competencias y habilidades</h3>
+        <ul>
+            <li>Manejo de bases de datos</li>
+            <li>Programación en java</li>
+            <li>HTML5</li>
+        
+        </ul>
+        <h3>Idiomas</h3>
+        <li>Español: Nativo</li>
+        <li>Inglés: Básico</li>
+        </section>
+        <hr>
+        <section id="contactenos">
+        <h2>Contáctenos</h2>
+        <form action="">
+            <div>
+                <label for="nombre">Nombre completo</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Correo electrónico</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="telefono">Número de teléfono</label><br>
+                <input type="tel" id="telefono" name="telefono">
+            </div>
+            <br>
+            <div>
+                <label for="fecha-nacimiento">Fecha de nacimiento</label><br>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento">
+            </div>
+            <br>
+            <div>
+                <label for="horario">Horario disponible</label><br>
+                <input type="time" id="horario" name="horario">
+            </div>
+            <br>
+            
+            <div>
+                <label for="edad">Edad</label><br>
+                <input type="number" id="edad" name="edad">
+            </div>
+            <br>
+
+            <div>
+                <label for="Género"></label><br>
+
+                <input type="radio" id="femenino" name="genero" value="femenino">
+                <label for="femenino">Femenino</label><br>
+                
+                <input type="radio" id="masculino" name="genero" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+
+                    <input type="radio" id="otro" name="genero" value="otro">
+                    <label for="otro">Otro</label><br>
+            </div>
+            <br>
+
+            <div>
+                <label for="area-interes">Área de interés</label><br>
+                <select name="area-interes" id="area-interes">
+                    <option value="desarrollo web">Desarrollo Web</option>
+                    <option value="base-datos">Bases de datos</option>
+                    <option value="redes">Redes</option>
+                    <option value="ia">Inteligencia Artificial</option>
+                    <option value="otro">Otro</option>
+                </select>
+            </div>
+            <br>
+
+            <div>
+                <label>Preferencia de contacto</label>
+                <input type="checkbox" id="p-email" name="preferencia" value="email">
+                <label for="p-email">Email</label><br>
+
+                <input type="checkbox" id="p-telefono" name="preferencia" value="telefono">
+                <label for="p-telefono">Teléfono</label><br>
+
+                <input type="checkbox" id="p-whatsapp" name="preferencia" value="whatsapp">
+                <label for="p-whatsapp">WhatsApp</label>
+            </div>
+            <br>
+            <div>
+                <label for="cv">Adjuntar archivo </label><br>
+                <input type="file" id="cv" name="cv">
+            </div>
+            <br>
+
+            <div>
+                <label for="portafolio">URL personal o portafolio</label><br>
+                <input type="url" id="portafolio" name="portafolio">
+            </div>
+            <br>
+
+            <div>
+                <label for="mensaje">Mensaje</label><br>
+                <textarea name="mensaje" id="mensaje"></textarea>
+            </div>
+            <br>
+
+            <div>
+                <button>Enviar</button>
+                <button>Limpiar</button>
+            </div>
+        </form>
+
+        </section>
+            </main>
+            <hr>
+
+            <footer id="redes-sociales">
+                <h3>Redes Sociales</h3>
+                <ul>
+                    <li><a href="https://www.linkedin.com/in/liceth-undefined-10356b433/">LinkedIn</a></li>
+                    <li><a href="https://www.instagram.com/licethlp07?igsi=Z2RtYWg0aDNwM3J0">Instagram</a></li>
+                </ul>
+                <p>© 2026 - portafolio creado por Liceth López</p>
+
+            </footer>
+
+</body>
+</html>
